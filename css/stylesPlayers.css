@@ -1,0 +1,73 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background: linear-gradient(to right, #211b22, #9e1638);
+}
+
+header{
+    /* background-color: blue; */
+    padding: 16px 0;
+}
+
+header img {
+    width: 500px;
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    /* bottom: 20px; */
+    margin-left: 10px;
+}
+
+footer {
+    /* background-color: aquamarine; */
+    clear: both;
+    color: blue;
+    text-align: center;
+}
+
+
+/* PERSONALIZACION DE LAS CARDS DE TEAMS */
+
+.players .card {
+    background: linear-gradient(to top, rgb(24, 132, 204) 0%, rgb(192, 32, 165) 100.1%);
+    border: none; /* Elimina el borde */
+    box-shadow: none; /* Elimina la sombra */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 200px; /* Altura fija para todas las cards */
+    overflow: hidden; /* Esconder cualquier contenido que se salga */
+}
+
+.players .team-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.players .card-title {
+    font-size: 1.5em;
+    color: #333;
+    white-space: nowrap; /* Evita que el texto se vaya a la siguiente línea */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Agrega "..." si el texto es muy largo */
+}
+
+.players .list-unstyled {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    color: #333;
+}
+
+.players .list-unstyled li {
+    margin-bottom: 5px;
+}
+/* FIN DE LA PERSONALIZACION DE LAS CARDS DE TEAMS */

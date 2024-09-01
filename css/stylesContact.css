@@ -1,0 +1,76 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background: linear-gradient(to right, #211b22, #9e1638);
+}
+
+header{
+    /* background-color: blue; */
+    padding: 16px 0;
+}
+
+header img {
+    width: 500px;
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    /* bottom: 20px; */
+    margin-left: 10px;
+}
+
+footer {
+    /* background-color: aquamarine; */
+    clear: both;
+    color: blue;
+    text-align: center;
+}
+
+
+/* PERSONALIZACION DE LAS CARDS DE TEAMS */
+
+form {
+    background-color: #f8f9fa; /* Color de fondo para el formulario */
+    padding: 20px; /* Espacio interno del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    color: #aaaaaa; /* Color del título */
+}
+
+.form-group label {
+    font-weight: bold; /* Negrita para las etiquetas */
+    color: #333; /* Color de las etiquetas */
+}
+
+.form-control {
+    border-radius: 4px; /* Bordes redondeados para los campos */
+    border: 1px solid #ced4da; /* Borde de los campos */
+    padding: 10px; /* Espacio interno de los campos */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color del botón */
+    border-color: #007bff; /* Borde del botón */
+    width: 100%; /* Botón ocupa el ancho completo */
+    padding: 10px; /* Espacio interno del botón */
+    border-radius: 4px; /* Bordes redondeados para el botón */
+    font-size: 1.2em; /* Tamaño de fuente del botón */
+    transition: background-color 0.3s; /* Transición suave en el color de fondo */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+/* FIN DE LA PERSONALIZACION DE LAS CARDS DE TEAMS */

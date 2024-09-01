@@ -1,0 +1,72 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background: linear-gradient(to right, #211b22, #9e1638);
+}
+
+header{
+    /* background-color: blue; */
+    padding: 16px 0;
+}
+
+header img {
+    width: 500px;
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    /* bottom: 20px; */
+    margin-left: 10px;
+}
+
+footer {
+    /* background-color: aquamarine; */
+    clear: both;
+    color: blue;
+    text-align: center;
+}
+
+
+/* PERSONALIZACION DE LAS CARDS DE TEAMS */
+.all-time-teams .card {
+    background: linear-gradient(to right, #1a1a1a, #3a3a3a); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: white;
+}
+
+.all-time-teams .card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.all-time-teams .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.all-time-teams .team-players {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.all-time-teams .team-players li {
+    margin-bottom: 5px;
+}
+.all-time-teams .card-img-top {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: 200px; /* Fija la altura */
+    object-fit: cover; /* Ajusta la imagen para que cubra todo el espacio sin distorsionarse */
+    object-position: center;
+}
+/* FIN DE LA PERSONALIZACION DE LAS CARDS DE TEAMS */

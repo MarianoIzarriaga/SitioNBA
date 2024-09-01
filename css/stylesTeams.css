@@ -1,0 +1,79 @@
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background: linear-gradient(to right, #211b22, #9e1638);
+}
+
+header{
+    /* background-color: blue; */
+    padding: 16px 0;
+}
+
+header img {
+    width: 500px;
+}
+
+header h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    /* bottom: 20px; */
+    margin-left: 10px;
+}
+
+footer {
+    /* background-color: aquamarine; */
+    clear: both;
+    color: blue;
+    text-align: center;
+}
+
+
+/* PERSONALIZACION DE LAS CARDS DE TEAMS */
+
+
+.teams .card {
+    background: linear-gradient(to right, #8067db, #1f89c7);
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de la card */
+    margin-bottom: 20px; /* Agrega espacio entre las cards */
+}
+
+.teams .card-img-top {
+    width: 80px; /* Ancho fijo para todas las imágenes */
+    height: 80px; /* Altura fija para todas las imágenes */
+    object-fit: contain; /* Ajusta la imagen dentro del contenedor sin distorsionar */
+    margin: 15px;
+}
+
+.teams .card-title {
+    font-size: 1.5em; /* Tamaño de fuente del título */
+    color: #333; /* Color del texto del título */
+}
+
+.teams .card-text {
+    font-size: 1em; /* Tamaño de fuente del texto */
+    color: #333; /* Color del texto */
+}
+
+.teams .card .d-flex {
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+}
+
+.teams .card-img-top {
+    width: 150px; /* Ancho fijo para todas las imágenes */
+    height: 150px; /* Altura fija para todas las imágenes */
+    object-fit: contain; /* Ajusta la imagen dentro del contenedor sin distorsionar */
+    flex-shrink: 0; /* Evita que la imagen se reduzca de tamaño */
+}
+
+.teams .card-body {
+    max-width: calc(100% - 160px); /* Asegura que el texto no sobrepase la imagen */
+    margin-left: 10px; /* Espacio entre la imagen y el texto */
+}
+/* FIN DE LA PERSONALIZACION DE LAS CARDS DE TEAMS */

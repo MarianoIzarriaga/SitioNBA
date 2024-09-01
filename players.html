@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesPlayers.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header my-4">
+            <img src="img/logoNBA.png" alt="NBA Logo" class="img-fluid">
+            <h1>NBA Project</h1>
+        </header>
+    
+        <!-- Nav -->
+        <nav class="nav mb-4">
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="teams.html">Teams</a></li>
+                <li class="nav-item"><a class="nav-link active" href="players.html">Players</a></li>
+                <li class="nav-item"><a class="nav-link" href="allTime.html">All Time</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    
+        <!-- Main Content -->
+        <main class="row">
+            <!-- Existing Cards Here -->
+            <div class="players row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/atlantaHawks.png" class="team-logo" alt="Los Angeles Lakers">
+                            <div class="card-body">
+                                <h5 class="card-title">Atlanta Hawks</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Trae Young</li>
+                                    <li><strong>SG:</strong> Bogdan Bogdanovic</li>
+                                    <li><strong>SF:</strong> Zaccharie Risacher</li>
+                                    <li><strong>PF:</strong> Jalen Johnson</li>
+                                    <li><strong>C:</strong> Clint Capela</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/bostonCeltics.png" class="team-logo" alt="Boston Celtics">
+                            <div class="card-body">
+                                <h5 class="card-title">Boston Celtics</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Jrue Holiday</li>
+                                    <li><strong>SG:</strong> Derrick White</li>
+                                    <li><strong>SF:</strong> Jaylen Brown</li>
+                                    <li><strong>PF:</strong> Jayson Tatum</li>
+                                    <li><strong>C:</strong> Kristaps Porzingis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/brooklynNets.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Brooklyn Nets</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Cam Thomas</li>
+                                    <li><strong>SG:</strong> Dennis Schroder</li>
+                                    <li><strong>SF:</strong> Dorian Finney-Smith</li>
+                                    <li><strong>PF:</strong> Cameron Johnson</li>
+                                    <li><strong>C:</strong> Nicolas Claxton</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/charlotteHornets.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Charlotte Hornets</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Lamelo Ball</li>
+                                    <li><strong>SG:</strong> Brandon Miller</li>
+                                    <li><strong>SF:</strong> Miles Bridges</li>
+                                    <li><strong>PF:</strong> Grant Williams</li>
+                                    <li><strong>C:</strong> Mark Williams</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/chicagoBulls.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Chicago Bulls</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Lonzo Ball</li>
+                                    <li><strong>SG:</strong> Zach Lavine</li>
+                                    <li><strong>SF:</strong> Josh Giddey</li>
+                                    <li><strong>PF:</strong> Matas Buzelis</li>
+                                    <li><strong>C:</strong> Nikola Vucevic</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/clevelandCavaliers.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Cleveland Cavaliers</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Darius Garland</li>
+                                    <li><strong>SG:</strong> Donovan Mitchell</li>
+                                    <li><strong>SF:</strong> Isaac Okoro</li>
+                                    <li><strong>PF:</strong> Evan Mobley</li>
+                                    <li><strong>C:</strong> Jarret Allen</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/dallasMavericks.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Dallas Mavericks</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Luka Doncic</li>
+                                    <li><strong>SG:</strong> Kyrie Irving</li>
+                                    <li><strong>SF:</strong> Klay Thompson</li>
+                                    <li><strong>PF:</strong> PJ Washington</li>
+                                    <li><strong>C:</strong> Dereck Lively</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/denverNuggets.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Denver Nuggets</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Jamal Murray</li>
+                                    <li><strong>SG:</strong> Russell Westbrook</li>
+                                    <li><strong>SF:</strong> Michael Porter Jr</li>
+                                    <li><strong>PF:</strong> Aaron Gordon</li>
+                                    <li><strong>C:</strong> Nikola Jokic</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/detroitPistons.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Detroit Pistons</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Cade Cunningham</li>
+                                    <li><strong>SG:</strong> Jaden Ivey</li>
+                                    <li><strong>SF:</strong> Ausar Thompson</li>
+                                    <li><strong>PF:</strong> Tobias Harris</li>
+                                    <li><strong>C:</strong> Jalen Duren</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/goldenStateWarriors.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Golden State Warriors</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Stephen Curry</li>
+                                    <li><strong>SG:</strong> Buddy Hield</li>
+                                    <li><strong>SF:</strong> Andrew Wiggings</li>
+                                    <li><strong>PF:</strong> Jonatan Kuminga</li>
+                                    <li><strong>C:</strong> Draymond Green</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/houstonRockets.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Houston Rockets</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Fred VanVleet</li>
+                                    <li><strong>SG:</strong> Jalen Green</li>
+                                    <li><strong>SF:</strong> Dillon Brooks</li>
+                                    <li><strong>PF:</strong> Jabari Smith Jr</li>
+                                    <li><strong>C:</strong> Alperen Sengun</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/indianaPacers.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Indiana Pacers</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Tyrese Haliburton</li>
+                                    <li><strong>SG:</strong> Bennedict Mathurin</li>
+                                    <li><strong>SF:</strong> Bruce Brown</li>
+                                    <li><strong>PF:</strong> Pascal Siakam</li>
+                                    <li><strong>C:</strong> Myles Turner</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/losAngelesClippers.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Los Angeles Clippers</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> James Harden</li>
+                                    <li><strong>SG:</strong> Terrance Mann</li>
+                                    <li><strong>SF:</strong> Kawhi Leonard</li>
+                                    <li><strong>PF:</strong> Nicolas Batum</li>
+                                    <li><strong>C:</strong> Ivica Zubac</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/lakers.webp" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Los Angeles Lakers</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Dangelo Russell</li>
+                                    <li><strong>SG:</strong> Austin Reaves</li>
+                                    <li><strong>SF:</strong> Taurean Prince</li>
+                                    <li><strong>PF:</strong> Lebron James </li>
+                                    <li><strong>C:</strong> Anthony Davis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/memphisGrizzlies.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Memphis Grizzlies</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Ja Morant</li>
+                                    <li><strong>SG:</strong> Marcus Smart</li>
+                                    <li><strong>SF:</strong> Desmond Bane</li>
+                                    <li><strong>PF:</strong> Jaren Jackson Jr</li>
+                                    <li><strong>C:</strong> Zach Edey</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/miamiHeat.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Miami Heat</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Kyle Lowry</li>
+                                    <li><strong>SG:</strong> Tyler Herro</li>
+                                    <li><strong>SF:</strong> Jimmy Butler</li>
+                                    <li><strong>PF:</strong> Nikola Jovic</li>
+                                    <li><strong>C:</strong> Bam Adebayo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/milwaukeeBucks.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Milwaukee Bucks</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Damian Lillard</li>
+                                    <li><strong>SG:</strong> Malik Beasley</li>
+                                    <li><strong>SF:</strong> Khris Middleton</li>
+                                    <li><strong>PF:</strong> Giannis Antetokounmpo</li>
+                                    <li><strong>C:</strong> Brook Lopez</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/minesottaTimberwolves.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Minnesota TimberWolves</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Mike Conley</li>
+                                    <li><strong>SG:</strong> Anthony Edwards</li>
+                                    <li><strong>SF:</strong> Jaden McDanields</li>
+                                    <li><strong>PF:</strong> Karl-Anthony Towns</li>
+                                    <li><strong>C:</strong> Rudy Gobert</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/newOrleansPelicans.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">New Orleans Pelicans</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong>Dejounte Murray</li>
+                                    <li><strong>SG:</strong> CJ McCollum</li>
+                                    <li><strong>SF:</strong> Brandon Ingram</li>
+                                    <li><strong>PF:</strong> Zion Williamson</li>
+                                    <li><strong>C:</strong> Daniel Theis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/newYorkKnicks.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">New York Knicks</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Jalen Brunson</li>
+                                    <li><strong>SG:</strong> Donte Divincenzo</li>
+                                    <li><strong>SF:</strong> Mikal Bridges</li>
+                                    <li><strong>PF:</strong> OG Annunoby</li>
+                                    <li><strong>C:</strong> Julius Randle</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/okc.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Oklahoma City Thunder</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Shai Gilgeous-Alexander</li>
+                                    <li><strong>SG:</strong> Luguent Dort</li>
+                                    <li><strong>SF:</strong> Jaylen Williams</li>
+                                    <li><strong>PF:</strong> Isaiah Hartenstein</li>
+                                    <li><strong>C:</strong> Chet Holmgren</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/orlandoMagic.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Orlando Magic</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Cole Anthony</li>
+                                    <li><strong>SG:</strong> Kentavious Calldwell-Pope</li>
+                                    <li><strong>SF:</strong> Franz Wagner</li>
+                                    <li><strong>PF:</strong> Paolo Banchero</li>
+                                    <li><strong>C:</strong> Wendell Carter Jr</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/philadelphia76Ers.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Philadelphia 76Ers</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Tyrese Maxey</li>
+                                    <li><strong>SG:</strong> Kelly Oubre Jr</li>
+                                    <li><strong>SF:</strong> Eric Gordon</li>
+                                    <li><strong>PF:</strong> Paul Goerge</li>
+                                    <li><strong>C:</strong> Joel Embiid</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/phoenixSuns.webp" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Phoenix Suns</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Bradley Beal</li>
+                                    <li><strong>SG:</strong> Devin Booker</li>
+                                    <li><strong>SF:</strong> Josh Okogie</li>
+                                    <li><strong>PF:</strong> Kevin Durant</li>
+                                    <li><strong>C:</strong> Jusuf Nurkic</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/portlandTrailBlazers.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Portland Trail Blazers</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Scoot Henderson</li>
+                                    <li><strong>SG:</strong> Anfernee Simons</li>
+                                    <li><strong>SF:</strong> Matisse Thybulle</li>
+                                    <li><strong>PF:</strong> Jerami Grant</li>
+                                    <li><strong>C:</strong> Deandre Ayton</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/sacramentoKings.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Sacramento Kings</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> De'Aaron Fox</li>
+                                    <li><strong>SG:</strong> Kevin Huerter</li>
+                                    <li><strong>SF:</strong> Demar Derozan</li>
+                                    <li><strong>PF:</strong> Keegan Murray</li>
+                                    <li><strong>C:</strong> Domantas Sabonis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/sanAntonioSpurs.gif" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">San Antonio Spurs</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Chris Paul</li>
+                                    <li><strong>SG:</strong> Devin Vassell</li>
+                                    <li><strong>SF:</strong> Keldon Johnson</li>
+                                    <li><strong>PF:</strong> Victor Wembanyama</li>
+                                    <li><strong>C:</strong> Zach Collins</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/torontoRaptors.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Toronto Raptors</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Immanuel Quickley</li>
+                                    <li><strong>SG:</strong> RJ Barrett</li>
+                                    <li><strong>SF:</strong> Bruce Brown</li>
+                                    <li><strong>PF:</strong> Scottie Barnes</li>
+                                    <li><strong>C:</strong> Jakob Poeltl</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/utahJazz.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Utah Jazz</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Jordan Clarkson</li>
+                                    <li><strong>SG:</strong> Talen Horton-Tucker</li>
+                                    <li><strong>SF:</strong> Lauri Markkanen</li>
+                                    <li><strong>PF:</strong> John Collins</li>
+                                    <li><strong>C:</strong> Walker Kessler</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="d-flex align-items-center">
+                            <img src="img/nbaTeams/washingtonWizards.png" class="team-logo" alt="Milwaukee Bucks">
+                            <div class="card-body">
+                                <h5 class="card-title">Washington Wizards</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>PG:</strong> Tyus Jones</li>
+                                    <li><strong>SG:</strong> Jordan Poole</li>
+                                    <li><strong>SF:</strong> Deni Advija</li>
+                                    <li><strong>PF:</strong> Kyle Kuzma</li>
+                                    <li><strong>C:</strong> Alexandre Sarr</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    
+
+
+
+                </div>
+            </div>
+        </main>
+    
+        <!-- Footer -->
+        <footer class="footer mt-4">
+            <p class="text-center">&copy; 2024 NBA Project. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

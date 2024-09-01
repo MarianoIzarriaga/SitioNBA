@@ -1,0 +1,47 @@
+.card .btn-primary {
+    background-color: #000000; /* Cambiar el color de fondo */
+    border-color: #9e1212; /* Cambiar el color del borde */
+}
+
+/* Personalización de la tarjeta */
+.card {
+    border-radius: 15px; /* Cambiar el radio del borde */
+    border: 2px solid #000; /* Cambiar el color y grosor del borde */
+    background: linear-gradient(to right, #cc59e0, #166c9e);
+}
+
+/* Personalización del título de la tarjeta */
+.card-title {
+    font-size: 2em; /* Cambiar el tamaño de fuente */
+    color: #333; /* Cambiar el color del texto */
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background: linear-gradient(to right, #211b22, #9e1638);
+}
+
+.header {
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav ul li a {
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+}
+.card-img-top {
+    height: 200px; /* Ajusta la altura a tu necesidad */
+    object-fit:cover; /* Mantiene el aspecto de la imagen */
+    border-bottom: 1px solid #000; /* Cambia el color y el grosor del borde */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra a la imagen */
+    width: 100%; /* Asegura que la imagen ocupe el ancho completo de la tarjeta */
+}
